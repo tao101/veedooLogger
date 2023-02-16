@@ -9,7 +9,7 @@ adds error loging to fibery Project managment space
 # Installation
 
 ```bash
-  npm i veedooLogger
+  npm i veedoo-logger
 ```
 
 ## Usage/Examples
