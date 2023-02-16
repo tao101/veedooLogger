@@ -1,5 +1,6 @@
-import Logger from './Logger.js';
-import getProjectIdByName from './getProjectIdByName.js';
+
+const Logger = require('./Logger.js')
+const getProjectIdByName = require('./getProjectIdByName.js')
 
 export default {
   Logger,

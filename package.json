@@ -1,8 +1,7 @@
 {
   "name": "veedoo-logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tool used by veedoo.io for monitoring projects",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
