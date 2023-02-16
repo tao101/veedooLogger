@@ -1,5 +1,4 @@
-const fetch = require('node-fetch')
-
+const fetch = require('node-fetch');
 
 async function log(message, type, fiberyHost, fiberyToken, fiberyProjectId) {
   try {
@@ -140,4 +139,4 @@ class Logger {
   }
 }
 
-export default Logger;
+module.exports = Logger;

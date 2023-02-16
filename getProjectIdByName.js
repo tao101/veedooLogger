@@ -1,10 +1,5 @@
-const fetch = require('node-fetch')
-
-export default async function getProjectIdByName(
-  fiberyHost,
-  fiberyToken,
-  projectName
-) {
+const fetch = require('node-fetch');
+async function getProjectIdByName(fiberyHost, fiberyToken, projectName) {
   try {
     let YOUR_SPACE_ENDPOINT =
       'https://' + fiberyHost + '/api/graphql/space/Project_Management';
@@ -41,3 +36,5 @@ export default async function getProjectIdByName(
     return null;
   }
 }
+
+module.exports = getProjectIdByName;
