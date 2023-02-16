@@ -1,5 +1,5 @@
 {
-  "name": "veedoologger",
+  "name": "veedoo-logger",
   "version": "1.0.0",
   "description": "tool used by veedoo.io for monitoring projects",
   "type": "module",
