@@ -110,8 +110,8 @@ class Logger {
     this.fiberyProjectId = fiberyProjectId;
   }
 
-  info(message) {
-    log(
+  async info(message) {
+    return log(
       message,
       'info',
       this.fiberyHost,
@@ -119,8 +119,8 @@ class Logger {
       this.fiberyProjectId
     );
   }
-  warn(message) {
-    log(
+  async warn(message) {
+    return log(
       message,
       'warning',
       this.fiberyHost,
@@ -128,8 +128,8 @@ class Logger {
       this.fiberyProjectId
     );
   }
-  error(message) {
-    log(
+  async error(message) {
+    return log(
       message,
       'error',
       this.fiberyHost,
