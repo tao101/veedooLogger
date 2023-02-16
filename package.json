@@ -1,0 +1,18 @@
+{
+  "name": "veedoologger",
+  "version": "1.0.0",
+  "description": "tool used by veedoo.io for monitoring projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taoufiq <admin@taoufiqLotfi.tech> (http://taoufiqlotfi.tech/)",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
