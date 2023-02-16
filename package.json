@@ -1,6 +1,6 @@
 {
   "name": "veedoo-logger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "tool used by veedoo.io for monitoring projects",
   "main": "index.js",
   "scripts": {
