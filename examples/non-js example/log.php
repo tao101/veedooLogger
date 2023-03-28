@@ -4,7 +4,7 @@ function veedooLog($fiberyHost,$fiberyToken,$fiberyProjectId,$logType='warn',$me
     $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://localhost:3000/api/log',
+  CURLOPT_URL => 'https://veedoo.dev/api/log',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,

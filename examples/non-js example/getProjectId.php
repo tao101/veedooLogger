@@ -1,7 +1,7 @@
 <?php 
 
 function getProjectId ($fiberyHost,$fiberyToken,$projectName){
-    $api_url = 'http://localhost:3000/api/getProjectIdByName';
+    $api_url = 'https://veedoo.dev/api/getProjectIdByName';
 $curl = curl_init();
 
 curl_setopt_array($curl, array(

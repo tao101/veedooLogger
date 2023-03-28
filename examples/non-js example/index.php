@@ -9,7 +9,7 @@
     $projectName = 'PROJECT_NAME';
 
     // getProjectId example start
-    $projectId  = getProjectId($fiberyHost,$fiberyToken,$projectName)->projectId; // should be d7443b30-08d6-11ed-90a3-09ae86494235
+    $projectId  = getProjectId($fiberyHost,$fiberyToken,$projectName)->projectId; // should be something like d7443b30-08d6-11ed-90a3-09ae86494235
     echo $projectId;
     // getProjectId example End
 
