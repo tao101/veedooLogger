@@ -15,7 +15,7 @@ adds error loging to fibery Project managment space
 ## Usage/Examples
 
 ```javascript
-import { Logger, getProjectIdByName } from 'veedooLogger';
+import { Logger, getProjectIdByName } from 'veedoo-logger';
 
 // getProjectIdByName returns project fibery id using the projectName
 let projectId = await getProjectIdByName('ProjectName');
