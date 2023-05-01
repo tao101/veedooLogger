@@ -86,8 +86,6 @@ async function log(message, type, fiberyHost, fiberyToken, fiberyProjectId) {
           console.error('Could not add Message to log');
           return null;
         }
-
-        return log;
       } else {
         console.error('Could not create log');
         return null;
